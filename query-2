@@ -1,0 +1,8 @@
+USE database
+GO
+
+SELECT SUM(Orders),
+EmployeeName
+FROM table
+GROUP BY 2 
+ORDER BY 1 DESC
