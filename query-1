@@ -1,0 +1,11 @@
+USE database
+
+CREATE TABLE customeremployee
+(
+CustomerId int,
+CustomerName varchar(255), 
+ContactName varchar(255), 
+EmployeeName varchar(255)
+);
+
+DESC customeremployee
